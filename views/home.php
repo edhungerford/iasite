@@ -1,6 +1,6 @@
 
 <h1>IA IA IA</h1>
-    <div class="hero"><img src="./ducktest1.png"/></div>
+    <div class="hero"><img src="./img/duckpanel.png"/></div>
     <div class="heading"><h3>A new comic about an old story.</h3></div>
     <div class="heading"><h2>STORY</h2></div>
     <p><i>IA IA IA</i> is the story of a duck journeying to a new world. It is also the story of two rabbit knights, one
