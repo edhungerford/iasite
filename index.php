@@ -9,6 +9,7 @@ require "functions.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="An expression in the shape of a duck.">
     <?php $request = $_SERVER['REQUEST_URI']; 
 
     $title = "IA IA IA";
