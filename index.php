@@ -1,3 +1,9 @@
+<?php
+define("ROOT_PATH", __DIR__);
+define("BLOG_PATH", __DIR__ . "/blogs"); 
+define("MAINTENANCE", true); 
+require "functions.php"; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,8 +29,7 @@
             $title = $title . " | 404";
             break;
     }
-    define("ROOT_PATH", __DIR__);
-    define("BLOG_PATH", __DIR__ . "/blogs"); 
+    
     echo "<title>$title</title>";
     ?>
     
@@ -35,24 +40,7 @@
 <?php require ROOT_PATH  ."/components/header.php"; ?>
     <?php
     
-    switch ($request) {
-        case '':
-        case '/':
-            require ROOT_PATH . '/views/home.php';
-            break;
-        case (!!preg_match('/read\/*/', $request)):
-        case '/read':
-            require ROOT_PATH . '/views/read.php';
-            break;
-        case '/blog':
-        case (!!preg_match('/blog\//', $request)):
-            require ROOT_PATH . '/views/blog.php';
-            break;
-        default:
-            http_response_code(404);
-            require ROOT_PATH . '/views/404.php';
-            break;
-    }
+    route_pages($request);
 ?>
 <?php require ROOT_PATH . '/components/footer.php'; ?>
 </body>
