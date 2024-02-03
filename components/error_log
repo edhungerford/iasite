@@ -1,0 +1,8 @@
+[26-Jan-2024 02:25:39 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT_PATH" in /home/iaiaxowx/public_html/components/navigation.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/iaiaxowx/public_html/components/navigation.php on line 3
+[26-Jan-2024 02:26:02 America/New_York] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT_PATH" in /home/iaiaxowx/public_html/components/navigation.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/iaiaxowx/public_html/components/navigation.php on line 4
