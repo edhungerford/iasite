@@ -20,7 +20,7 @@ h1, h2, h3 {
 
 
 h1 {
-    font-size: 100px;
+    font-size: 90px;
 }
 
 h2 {
@@ -109,8 +109,8 @@ select option {
 
 #menuIcon {
     cursor: pointer;
-    height: 15px;
-    width: 30px;
+    height: 32px;
+    width: 32px;
 }
 
 .page img {
@@ -163,6 +163,7 @@ footer {
     :root {
         --body-bg: #FFFFFF;
         --body-color: #000000;
+        --link-color: initial;
     }
  }
  
@@ -171,10 +172,23 @@ footer {
     :root {
         --body-bg: #000000;
         --body-color: #FFFFFF;
+        --link-color: #a0caee;
+        --link-used-color: plum;
+    }
+
+    #menuIcon {
+        filter: invert(1);
     }
  }
 
  body {
     background-color: var(--body-bg);
     color: var(--body-color);
+ }
+
+ a {
+    color: var(--link-color);
+ }
+ a:visited {
+    color: var(--link-used-color);
  }

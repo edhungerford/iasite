@@ -9,7 +9,7 @@
     
 </aside>
 <div id="mobileNav">
-    <div class="center"><img id="menuIcon" src="/menu.png"/></div><br />
+    <div class="center"><img id="menuIcon" src="/Hamburger_icon.svg"/></div><br />
 </div>
 <aside id="mobileMenu">
     <nav>
