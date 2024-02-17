@@ -30,6 +30,7 @@
         }
         ?>
     </select>
+    <div class="break"></div>
     <div class="navigation">
 
     <?php
@@ -39,4 +40,4 @@
     echo $page == count($flat_pages)? "<span>Next</span>" : "<a href='/read/" . $page + 1 . "'>Next</a>"; 
     echo $page == count($flat_pages)? "<span>Latest</span>" : "<a href='/read/" . count($flat_pages) . "'>Latest</a>"; ?>
 </div>
-</div>
+    </div>

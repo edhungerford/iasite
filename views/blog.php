@@ -36,6 +36,7 @@ if (!is_archive()) {
 
 <h1>BLOG</h1>
 <?php 
+echo "<div class='navigationContainer'>";
 echo "<select class='blogSwitch'>";
 echo "<option value='' disabled selected>Select a post</option>";
 for ($i = 1; $i <= count_posts(); $i++) {
@@ -43,7 +44,7 @@ for ($i = 1; $i <= count_posts(); $i++) {
     echo "<option value='" . $i . "'>" . $blogpost->date . ": " . $blogpost->title . "</option>";
 
 }
-echo "</select>";
+echo "</select></div>";
 ?>
 <?php
 if (!is_archive()) {

@@ -4,7 +4,7 @@ function check_maintenance_or_route($path){
     if(MAINTENANCE){
         require ROOT_PATH . '/views/maintenance.php';
     } else 
-        require $path;
+        require ROOT_PATH . $path;
 }
 
 function route_pages($request){
