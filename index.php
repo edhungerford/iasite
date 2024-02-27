@@ -36,6 +36,7 @@ require "functions.php";
     
     <link rel="stylesheet" type="text/css" href="/main.css" />
     <link rel="icon" type="image/jpeg" href="/duckico.png" />
+    <script src="/main.js"></script>
 </head>
 <body>
 <?php require ROOT_PATH  ."/components/header.php"; ?>

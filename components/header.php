@@ -21,5 +21,6 @@
         </ul>
     </nav>
 </aside>
+<div id="modeToggle" onclick="toggleMode()">💡</div>
 <div id="container">
 <main>
