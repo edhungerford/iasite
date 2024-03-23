@@ -23,18 +23,12 @@
 
 
     <?php
-    if(dirname($request) !== "\\"){
-        echo $page == 1? "<span>Oldest</span>" : "<a href='" . dirname($request) . "/1'>Oldest</a>"; 
-        echo $page == 1? "<span>Previous</span>" : "<a href='" . dirname($request) . "/" . $page - 1 . "'>Previous</a>"; 
-        echo $page == return_flattened_page_count($files)? "<span>Next</span>" : "<a href='" . dirname($request) . "/" . $page + 1 . "'>Next</a>"; 
-        echo $page == return_flattened_page_count($files)? "<span>Latest</span>" : "<a href='" . dirname($request) . "/" . return_flattened_page_count($files) . "'>Latest</a>";
-    } else {
-        echo $page == 1? "<span>Oldest</span>" : "<a href='" . $request . "/1'>Oldest</a>"; 
-        echo $page == 1? "<span>Previous</span>" : "<a href='" . $request . "/" . $page - 1 . "'>Previous</a>"; 
-        echo $page == return_flattened_page_count($files)? "<span>Next</span>" : "<a href='" . $request . "/" . $page + 1 . "'>Next</a>"; 
-        echo $page == return_flattened_page_count($files)? "<span>Latest</span>" : "<a href='" . $request . "/" . return_flattened_page_count($files) . "'>Latest</a>";
-    }
-    
+    if($request == "/read" || !!preg_match('/read\/*/', $request)) $book = "/read";
+    if($request == "/black-magic-blues" || !!preg_match('/black-magic-blues\/*/', $request)) $book = "/black-magic-blues";
+    echo $page == 1? "<span>Oldest</span>" : "<a href='$book" . "/1'>Oldest</a>"; 
+    echo $page == 1? "<span>Previous</span>" : "<a href='$book" . "/" . $page - 1 . "'>Previous</a>"; 
+    echo $page == return_flattened_page_count($files)? "<span>Next</span>" : "<a href='$book" . "/" . $page + 1 . "'>Next</a>"; 
+    echo $page == return_flattened_page_count($files)? "<span>Latest</span>" : "<a href='$book" . "/" . return_flattened_page_count($files) . "'>Latest</a>";
     ?>
     
 </div>
