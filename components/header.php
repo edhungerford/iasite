@@ -3,7 +3,8 @@
         <ul>
             <li><a href="/">Home</a></li>| 
             <li><a href="/read">Read</a></li>| 
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>|
+            <li><a href="/black-magic-blues">Black Magic Blues</a></li>
         </ul>
     </nav>
     
@@ -17,6 +18,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/read">Read</a></li>
             <li><a href="/blog">Blog</a></li>
+            <li><a href="/black-magic-blues">Black Magic Blues</a></li>
             <li><a id="close" href="#">Close</a>
         </ul>
     </nav>

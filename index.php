@@ -26,6 +26,10 @@ require "functions.php";
         case (!!preg_match('/blog\//', $request)):
             $title = $title . " | Blog";
             break;
+        case (!!preg_match('/black-magic-blues\/*/', $request)):
+        case '/black-magic-blues':
+            $title = $title . " | Black Magic Blues";
+            break;
         default:
             $title = $title . " | 404";
             break;

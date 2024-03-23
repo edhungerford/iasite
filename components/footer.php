@@ -24,7 +24,8 @@
 <script>
     document.addEventListener("change", function(event){
         if(event.target.matches("select.pageSwitch")){
-            window.location.href = '/read/?id=' + event.target.value;
+            var path = window.location.pathname.split("/");
+            window.location.href = "/" + path[1] + "/" + event.target.selectedIndex;
         }
     })
 </script>
