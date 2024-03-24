@@ -17,5 +17,5 @@
     <div class="heading"><h2>CREATOR</h2></div>
     <p>My previous
         work, <i>Black Magic Blues</i>, can
-        be found on <a href="https://blackmagicblues.itch.io/black-magic-blues">Itch</a>.</p>
+        be read <a href="/black-magic-blues">here</a>. It can also be found on <a href="https://blackmagicblues.itch.io/black-magic-blues">Itch</a>.</p>
     <p>To support my work while the comic is in progress, you may buy me a coffee (check the link in the footer).</p>

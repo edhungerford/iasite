@@ -97,6 +97,7 @@ select option {
     left: 0;
     padding: 5px;
     z-index: 999;
+    display: block;
 }
 
 #mobileMenu {
@@ -190,6 +191,10 @@ footer {
     select.blogSwitch, select.pageSwitch {
         width: 40%
     }
+
+    #mobileNav {
+        display: none;
+    }
     
 
 }
@@ -242,7 +247,7 @@ footer {
     color: plum;
  }
 
- body.darkMode #mobileMenu {
+ body.darkMode #mobileMenu, body.darkMode #mobileNav {
     background-color: black;
  }
  
@@ -263,7 +268,7 @@ footer {
     color: initial;
  }
 
- body.lightMode #mobileMenu {
+ body.lightMode #mobileMenu, body.lightMode #mobileNav {
     background-color: white;
  }
 
