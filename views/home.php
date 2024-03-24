@@ -12,7 +12,7 @@
     <p>"Undoubtedly, <i>IA IA IA</i> is...[a] comic...."</p>
     <p>"I have never read <i>IA IA IA</i>, but I am sure it is very good."</p>
     <div class="heading"><h2>RELEASE</h2></div>
-    <p><i>IA IA IA</i> can be read for free on this very website. When finished, it will be available for purchase in
+    <p><i>IA IA IA</i> can be <a href="/read">read</a> for free on this very website. When finished, it will be available for purchase in
         print and digital formats.</p>
     <div class="heading"><h2>CREATOR</h2></div>
     <p>My previous
