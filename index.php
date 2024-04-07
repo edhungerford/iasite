@@ -1,7 +1,7 @@
 <?php
 define("ROOT_PATH", __DIR__);
 define("BLOG_PATH", __DIR__ . "/blogs"); 
-define("MAINTENANCE", true); 
+define("MAINTENANCE", false); 
 require "functions.php"; 
 ?>
 <!DOCTYPE html>
