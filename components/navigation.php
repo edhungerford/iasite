@@ -4,6 +4,9 @@
         <option disabled selected value="">Browse...</option>
         <?php
         $files = get_options($request);
+        ksort($files); // For some reason, leaving this out on live causes alphabetical sorting to freak out. Why?
+        print_r($files);
+        
         foreach($files as $key => $value){
             if(is_array($value)){
                 echo "<optgroup label='$key'>";
