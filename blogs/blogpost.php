@@ -22,7 +22,7 @@ class blogpost
             $line = explode(',', $line);
             if (count($line) > 1) {
                 if ($line[0] == $this->id) {
-                    $this->title = $line[2];
+                    $this->title = $line[2]; 
                     $this->content = file_get_contents(BLOG_PATH . '/' . $line[0] . '.php');
                     $this->date = $line[1];
                 }

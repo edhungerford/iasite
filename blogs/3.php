@@ -1,0 +1,4 @@
+<p>While drawing the first chapter of IA IA IA, I fell ill with bronchitis. During this time, I read comics and books like Alan Moore's <i>Watchmen</i> and Jack Kerouac's <i>The Dharma Bums.</i> I hope that I will be forgiven for stealing the techniques of these writers.</p>
+<p>I visited the doctor. They prescribed me some medicine, but after the bronchitis had faded, I still dealt with inflammation for the next few weeks. I'm trying to become healthy, so please...!</p>
+<p>While writing Chapter 2, I wanted to avoid a situation where someone shouts "Watchmen!" even though I was thinking about the comic. So, I had to make the plural "Nights Watchman." But, wouldn't "Guards!" do the trick most of the time?</p>
+<p><a href="/read/13">Chapter 2 of IA IA IA is here.</a> Please enjoy it.</p>

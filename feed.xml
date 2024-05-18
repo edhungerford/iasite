@@ -1,0 +1,44 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>IA IA IA</title>
+        <link>https://ia-ia-ia.world/</link>
+        <description>A new comic for an old world.</description>
+        <language>en-us</language>
+        <atom:link href="https://ia-ia-ia.world/feed.xml" rel="self" type="application/rss+xml" />
+        <item>
+            <title>IA IA IA Chapter 1</title>
+            <link>https://ia-ia-ia.world/read/1</link>
+            <description>The first chapter of IA IA IA is out now.</description>
+            <category>Comic</category>
+            <guid>https://ia-ia-ia.world/read/1</guid>
+        </item>
+         <item>
+            <title>Black Magic Blues: Volume 1</title>
+            <link>https://ia-ia-ia.world/black-magic-blues/1</link>
+            <description>Black Magic Blues is out now.</description>
+            <category>Comic</category>
+            <guid>https://ia-ia-ia.world/black-magic-blues/1</guid>
+        </item>
+        <item>
+            <title>Site Launch</title>
+            <link>https://ia-ia-ia.world/blog/?id=1</link>
+            <description>The inaugural blog post for the site launch.</description>
+            <category>Blog</category>
+            <guid>https://ia-ia-ia.world/blog/?id=1</guid>
+        </item>
+        <item>
+         <title>One-shot: A Reason to Come Back</title>
+            <link>https://ia-ia-ia.world/black-magic-blues/12</link>
+            <description>The Black Magic Blues one-shot, "A Reason to Come Back," has been published.</description>
+            <category>Comic</category>
+            <guid>https://ia-ia-ia.world/black-magic-blues/12</guid>
+        </item>
+        <item>
+            <title>A Reason to Come Back</title>
+            <link>https://ia-ia-ia.world/blog/?id=2</link>
+            <description>Site announcements, including the publishing of a short comic.</description>
+            <category>Blog</category>
+            <guid>https://ia-ia-ia.world/blog/?id=2</guid>
+        </item> 
+    </channel>
+</rss>

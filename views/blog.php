@@ -40,8 +40,8 @@ echo "<div class='navigationContainer'>";
 echo "<select class='blogSwitch'>";
 echo "<option value='' disabled selected>Select a post</option>";
 for ($i = 1; $i <= count_posts(); $i++) {
-    $blogpost = new blogpost($i);
-    echo "<option value='" . $i . "'>" . $blogpost->date . ": " . $blogpost->title . "</option>";
+    $option_blogpost = new blogpost($i);
+    echo "<option value='" . $i . "'>" . $option_blogpost->date . ": " . $option_blogpost->title . "</option>";
 
 }
 echo "</select></div>";
