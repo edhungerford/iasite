@@ -8,7 +8,12 @@
         ?>
         <?php include ROOT_PATH . "/components/navigation.php"; ?>
         
-        <div class="page">
+        <!-- <div class="page">
            <img src="<?php echo find_page($request); ?>" />
+        </div> -->
+        <div class="page">
+            <?php if(last_page() !== $page) echo "<a href='/black-magic-blues/" . $page + 1 . "'>";?> 
+               <img src="<?php echo find_page($request); ?>" />
+            <?php if(last_page() !== $page) echo "</a>";?> 
         </div>
         <?php include ROOT_PATH . "/components/navigation.php"; ?>

@@ -1,2 +1,2 @@
 <p>The Black Magic Blues one-shot, "A Reason to Come Back," has been published. This comic was previously included in the print release of Black Magic Blues. <a href="/black-magic-blues/12">It can be read here.</a></p>
-<p>This post also inaugurates the RSS feed.</p>
+<p>This post also inaugurates the RSS feed, which can be found via the orange icon in the footer.</p>

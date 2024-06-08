@@ -80,6 +80,23 @@ function find_page($request){
     return "$path.jpg";
 }
 
+function last_page(){
+    $request = $_SERVER['REQUEST_URI'];
+    $files = get_options($request);
+    $index;
+    array_walk_recursive($files, function($value, $key) use (&$index) {
+        $index = $value;
+    });
+    return $index;
+}
+
+function last_page_link(){
+    $request = $_SERVER['REQUEST_URI'];
+    if($request == "/read" || !!preg_match('/read\/*/', $request)) $path = "/read";
+    if($request == "/black-magic-blues" || !!preg_match('/black-magic-blues\/*/', $request)) $path = "/black-magic-blues";
+    return $path . "/" . last_page();
+}
+
 function prettify_filename($filename){
     $filename = str_replace("-", " ", $filename);
     $filename = str_replace(".jpg", "", $filename);

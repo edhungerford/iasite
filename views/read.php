@@ -9,6 +9,8 @@
         <?php include ROOT_PATH . "/components/navigation.php"; ?>
         
         <div class="page">
-           <img src="<?php echo find_page($request); ?>" />
+            <?php if(last_page() !== $page) echo "<a href='/read/" . $page + 1 . "'>";?> 
+               <img src="<?php echo find_page($request); ?>" />
+            <?php if(last_page() !== $page) echo "</a>";?> 
         </div>
         <?php include ROOT_PATH . "/components/navigation.php"; ?>
