@@ -3,4 +3,4 @@
 <p>Then, after that passed, I experienced a lot of panic attacks and anxiety flare-ups. I could barely eat. I'm only now starting to go back to work, but I'm taking medication and talking to a therapist.</p>
 <p>It's important to be yourself, no matter what. It should feel good to be that person. And you should never become someone out of fear.</p>
 <p>In this chapter, the duck and the rabbit have tea.</p>
-<p><a href="/read/14"><?php //Change the URL if the page count changes. ?>Chapter 2 of IA IA IA is here.</a> Please enjoy it.</p>
+<p><a href="/read/14">Chapter 2 of IA IA IA is here.</a> Please enjoy it.</p>
