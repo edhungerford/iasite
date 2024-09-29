@@ -18,7 +18,14 @@ class Database {
             $data[$row['Book Primary Key']]['chapters'][$row['Chapter Index']]['chapterTitle'] = $row['Chapter Title'];
             $data[$row['Book Primary Key']]['chapters'][$row['Chapter Index']]['pages'][$row['Page Index']] = $row['URL'];
         }
-        $this->data = $data;
+        $cleanedData = array_values($data);
+        foreach($data as $key => $book){
+            $cleanedData[$key - 1]['chapters'] = array_values($book['chapters']);
+            foreach($cleanedData[$key - 1]['chapters'] as $key2 => $chapter){
+                $cleanedData[$key -1]['chapters'][$key2]['pages'] = array_values($book['chapters'][$key2 + 1]['pages']);
+            }
+        }
+        $this->data = $cleanedData;
     }
     public function getAll(){
         return json_encode($this->data);
