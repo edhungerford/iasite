@@ -14,9 +14,10 @@ class Database {
             ORDER BY Books."Primary Key", Pages."Page Index"';
         foreach($database->query($query) as $row){
             $data[$row['Book Primary Key']]['title'] = $row['Book Title'];
-            $data[$row['Book Primary Key']]['permalink'] = "https://ia-ia-ia.world/api/" . $row['Book Primary Key'];
+            $hostname = $_SERVER['HTTP_HOST'] === 'localhost'? 'http://localhost' : 'https://ia-ia-ia.world/';
+            $data[$row['Book Primary Key']]['permalink'] = $hostname . "/api/" . $row['Book Primary Key'] - 1;
             $data[$row['Book Primary Key']]['chapters'][$row['Chapter Index']]['chapterTitle'] = $row['Chapter Title'];
-            $data[$row['Book Primary Key']]['chapters'][$row['Chapter Index']]['pages'][$row['Page Index']] = $row['URL'];
+            $data[$row['Book Primary Key']]['chapters'][$row['Chapter Index']]['pages'][$row['Page Index']] = $hostname . $row['URL'];
         }
         $cleanedData = array_values($data);
         foreach($data as $key => $book){
