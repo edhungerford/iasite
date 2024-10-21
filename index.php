@@ -6,6 +6,8 @@ define("MAINTENANCE", false);
 require "functions.php"; 
 if(preg_match('/api\/*/', $request)):
     require "api.php";
+elseif(preg_match('/hunters\/*/', $request)):
+    require "hunters.php";
 else:
 
 ?>
