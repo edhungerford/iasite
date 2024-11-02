@@ -1,4 +1,6 @@
 <?php
+require "db-methods.php";
+$db = new Database($database);
 $request = strtok($_SERVER["REQUEST_URI"], '?');
 define("ROOT_PATH", __DIR__);
 define("BLOG_PATH", __DIR__ . "/blogs"); 
@@ -9,7 +11,7 @@ if(preg_match('/api\/*/', $request)):
 elseif(preg_match('/hunters\/*/', $request)):
     require "hunters.php";
 else:
-
+    
 ?>
 
 <!DOCTYPE html>
@@ -52,7 +54,28 @@ else:
 <?php require ROOT_PATH  ."/components/header.php"; ?>
     <?php
     
-    route_pages($request);
+    switch ($request) {
+        case '':
+        case '/':
+            require ROOT_PATH . '/views/home.php';
+            break;
+        case (!!preg_match('/read\/*/', $request)):
+        case '/read':
+            require ROOT_PATH . '/views/read.php';
+            break;
+        case '/blog':
+        case (!!preg_match('/blog\//', $request)):
+            check_maintenance_or_route('/views/blog.php');
+            break;
+        case (!!preg_match('/black-magic-blues\/*/', $request)):
+        case '/black-magic-blues':
+            require ROOT_PATH . '/views/black-magic-blues.php';
+            break;
+        default:
+            http_response_code(404);
+            require ROOT_PATH . '/views/404.php';
+            break;
+    }
 ?>
 <?php require ROOT_PATH . '/components/footer.php'; ?>
 </body>
