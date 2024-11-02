@@ -4,11 +4,13 @@
         <option disabled selected value="">Browse...</option>
         <?php
         
+        $realPageIndex = 0;
         foreach($book->chapters as $key => $chapter){
                 echo "<optgroup label='$chapter->chapterTitle'>";
-                foreach($chapter->pages as $key=>$value){
+                foreach($chapter->pages as $value){
 
-                    echo "<option value='$key'>" . $key + 1 . "</option>";
+                    echo "<option value='$realPageIndex'>" . $realPageIndex + 1 . "</option>";
+                    $realPageIndex++;
                 }
                 echo "</optgroup>";
         }
