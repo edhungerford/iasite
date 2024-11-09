@@ -8,8 +8,6 @@ define("MAINTENANCE", false);
 require "functions.php"; 
 if(preg_match('/api\/*/', $request)):
     require "api.php";
-elseif(preg_match('/hunters\/*/', $request)):
-    require "hunters.php";
 else:
     
 ?>
@@ -20,33 +18,12 @@ else:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="An expression in the shape of a duck.">
-    <?php $title = "IA IA IA";
-    switch ($request) {
-        case '':
-        case '/':
-            
-            break;
-        case (!!preg_match('/read\/*/', $request)):
-        case '/read':
-            $title = $title . " | Read";
-            break;
-        case '/blog':
-        case (!!preg_match('/blog\//', $request)):
-            $title = $title . " | Blog";
-            break;
-        case (!!preg_match('/black-magic-blues\/*/', $request)):
-        case '/black-magic-blues':
-            $title = $title . " | Black Magic Blues";
-            break;
-        default:
-            $title = $title . " | 404";
-            break;
-    }
+    <?php 
     
-    echo "<title>$title</title>";
+    echo "<title>" . route_title($request) . "</title>";
     ?>
     
-    <link rel="stylesheet" type="text/css" href="/main.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo route_stylesheet($request); ?>" />
     <link rel="icon" type="image/jpeg" href="/duckico.png" />
     <script src="/main.js"></script>
 </head>
@@ -54,28 +31,7 @@ else:
 <?php require ROOT_PATH  ."/components/header.php"; ?>
     <?php
     
-    switch ($request) {
-        case '':
-        case '/':
-            require ROOT_PATH . '/views/home.php';
-            break;
-        case (!!preg_match('/read\/*/', $request)):
-        case '/read':
-            require ROOT_PATH . '/views/read.php';
-            break;
-        case '/blog':
-        case (!!preg_match('/blog\//', $request)):
-            check_maintenance_or_route('/views/blog.php');
-            break;
-        case (!!preg_match('/black-magic-blues\/*/', $request)):
-        case '/black-magic-blues':
-            require ROOT_PATH . '/views/black-magic-blues.php';
-            break;
-        default:
-            http_response_code(404);
-            require ROOT_PATH . '/views/404.php';
-            break;
-    }
+    require route_page($request);
 ?>
 <?php require ROOT_PATH . '/components/footer.php'; ?>
 </body>

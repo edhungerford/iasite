@@ -41,4 +41,82 @@ function fix_indices($comicArray, $fk, $index, $sortItem){
 
 }
 
+function route_title($request){
+    $title = "IA IA IA";
+    switch ($request) {
+        case '':
+        case '/':
+            
+            break;
+        case (!!preg_match('/read\/*/', $request)):
+        case '/read':
+            $title = $title . " | Read";
+            break;
+        case '/blog':
+        case (!!preg_match('/blog\//', $request)):
+            $title = $title . " | Blog";
+            break;
+        case (!!preg_match('/black-magic-blues\/*/', $request)):
+        case '/black-magic-blues':
+            $title = $title . " | Black Magic Blues";
+            break;
+        case '/hunters':
+            $title = "Hunters of the Infamous Thing";
+            break;
+        case '/wizards':
+            $title = "A Short Guide to Wizards";
+            break;
+        default:
+            $title = $title . " | 404";
+            break;
+    }
+    return $title;
+}
+
+function route_stylesheet($request){
+    switch ($request) {
+        case '/hunters':
+            $stylesheet = "/hunters.css";
+            break;
+        case '/wizards':
+            $stylesheet = "/wizards.css";
+            break;
+        default:
+            $stylesheet = '/main.css';
+            break;
+    }
+    return $stylesheet;
+}
+
+function route_page($request){
+    switch ($request) {
+        case '':
+        case '/':
+            $page = ROOT_PATH . '/views/home.php';
+            break;
+        case (!!preg_match('/read\/*/', $request)):
+        case '/read':
+            $page = ROOT_PATH . '/views/read.php';
+            break;
+        case '/blog':
+        case (!!preg_match('/blog\//', $request)):
+            check_maintenance_or_route('/views/blog.php');
+            break;
+        case (!!preg_match('/black-magic-blues\/*/', $request)):
+        case '/black-magic-blues':
+            $page = ROOT_PATH . '/views/black-magic-blues.php';
+            break;
+        case '/hunters':
+            $page = ROOT_PATH . '/views/hunters.php';
+        case '/wizards':
+            $page = ROOT_PATH . '/views/wizards.php';
+            break;
+        default:
+            http_response_code(404);
+            $page = ROOT_PATH . '/views/404.php';
+            break;
+    }
+    return $page;
+}
+
 ?>

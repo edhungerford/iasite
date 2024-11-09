@@ -1,0 +1,150 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    word-break:break-word;
+    margin: 0;
+}
+@font-face {
+    font-family: "Tintin Title";
+    src: url("./filmstintin.ttf");
+}
+h1, h2 {
+    font-family: "Tintin Title";
+    font-weight: unset;
+    text-align: center;
+    margin-top: 25px;
+}
+h1 {
+font-size: 80px;
+}
+
+h2 {
+font-size: 60px;
+}
+
+h3 {
+font-size: 30px;
+margin-top: 25px;
+}
+body {
+    background-color: #a12c28;
+}
+#container {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+}
+
+#desktopMenu {
+    display: none;
+}
+
+#mobileNav {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    padding: 5px;
+    z-index: 999;
+    display: block;
+}
+
+#mobileMenu {
+    display: none;
+    position: fixed;
+    text-align:center;
+    font-size: 48px;
+    line-height: 2;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 999;
+    margin: none;
+}
+
+#mobileMenu nav {
+    width: 100%;
+}
+
+#mobileMenu nav ul {
+    list-style-type: none;
+}
+
+#menuIcon {
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+}
+
+#modeToggle {
+    height: 40px;
+    width: 40px;
+    background-color: #a0caee;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer {
+    margin-top: 40px;
+}
+
+#container p {
+    text-align: center;
+    margin-top: 15px;
+   
+}
+body.darkMode #mobileMenu, body.darkMode #mobileNav {
+    background-color: #a12c28;
+ }
+ 
+ body.darkMode #menuIcon {
+    filter: invert(1);
+ }
+ body.lightMode #mobileMenu, body.lightMode #mobileNav {
+    background-color: #a12c28;
+ }
+ .hero, .center {
+    display:flex;
+    justify-content: center;
+}
+
+ body.lightMode #menuIcon {
+    filter: unset;
+ }
+ #mobileMenu nav ul {
+    list-style-type: none;
+}
+nav ul {
+    padding: 0;
+}
+
+
+@media only screen and (min-width: 760px) {
+    #container {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    #desktopMenu {
+        display:block;
+    }
+    #desktopMenu nav ul {
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #menuIcon {
+        display: none;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+    
+    
+}
