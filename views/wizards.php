@@ -1,1 +1,7 @@
-<h1>COMING SOON</h1>
+<h1>THE SHORT GUIDE TO WIZARDS</h1>
+<h4>NOW WITH PICTORIAL EVIDENCE</h4>
+
+<h2>AN INTRODUCTION TO WIZARDS</h2>
+<p>Until recently, wizards were thought to be the only species in the world to develop complex brains and apply sophisticated technology. In the age since the discovery of “humans,” it has become clear that this paradigm must – slightly – shift.1 This pamphlet is intended for educational purposes, in the hopes that pictures will help to convince human audiences (whose somewhat limited minds have proven bafflingly unable to believe in the existence of wizards thus far). As recent attempts at human communication have determined the so-called “Imperial System” to be the dominant measuring system among humans, measurements will be given in this fashion (with a key located in  Appendix A, page 14).</p>
+<p>Wizards are the longest-lived intelligent species in the “universe,” dating back before the inception of Time to around the inception of Noses. The average wizard measures around 3 feet in height, and has relatively larger ears, wider feet, and a rounder nose. They weigh anywhere between 40 and 70 pounds. </p>
+<p>Wizard society hinges on an ever-shifting group of scholastic traditions, which determine an individual wizard’s role in society and, frequently, their interests and commitments. For four seasons, wizards engage in work, play, and education. The fifth season is the restful season, during which time wizards sleep. The restful season takes place in a deep and wide tunnel called a burrow. A wizard society which does not have a burrow must build one or survive the restful season in the harsh sun.</p>

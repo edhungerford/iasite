@@ -22,7 +22,7 @@ else:
     
     echo "<title>" . route_title($request) . "</title>";
     ?>
-    
+    <link rel="stylesheet" type="text/css" href="base.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo route_stylesheet($request); ?>" />
     <link rel="icon" type="image/jpeg" href="/duckico.png" />
     <script src="/main.js"></script>

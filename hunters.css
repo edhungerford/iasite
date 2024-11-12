@@ -8,7 +8,7 @@
     font-family: "Tintin Title";
     src: url("./filmstintin.ttf");
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: "Tintin Title";
     font-weight: unset;
     text-align: center;
