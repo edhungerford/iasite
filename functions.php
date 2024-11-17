@@ -108,6 +108,7 @@ function route_page($request){
             break;
         case '/hunters':
             $page = ROOT_PATH . '/views/hunters.php';
+            break;
         case '/wizards':
             $page = ROOT_PATH . '/views/wizards.php';
             break;
