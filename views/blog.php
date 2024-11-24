@@ -1,37 +1,11 @@
 <?php
 require_once(BLOG_PATH . '/blogpost.php');
 
-function count_posts()
-{
-    $totalposts = file_get_contents(BLOG_PATH . '/blogs.csv');
-    $totalposts = explode("\n", $totalposts);
-    $totalposts = count($totalposts) - 1;
-    return $totalposts;
-}
-
-function is_archive()
-{
-    if (isset($_GET['id'])) {
-        return false;
-    } else {
-        return true;
-    }
-}
-
-function get_title()
-{
-    if (!is_archive()) {
-        $blogpost = new blogpost($_GET['id']);
-        return strtoupper($blogpost->title);
-    } else {
-        return 'BLOG';
-    }
-}
-
 //check if id is present and set
 if (!is_archive()) {
     $blogpost = new blogpost($_GET['id']);
 }
+
 ?>
 
 <h1>BLOG</h1>

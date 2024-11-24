@@ -1,10 +1,10 @@
 <?php 
 
-function check_maintenance_or_route($path){
+function check_maintenance_or_route($page){
     if(MAINTENANCE){
-        require ROOT_PATH . '/views/maintenance.php';
+        return ROOT_PATH . '/views/maintenance.php';
     } else 
-        require ROOT_PATH . $path;
+        return $page;
 }
 
 function prettify_filename($filename){
@@ -100,7 +100,7 @@ function route_page($request){
             break;
         case '/blog':
         case (!!preg_match('/blog\//', $request)):
-            check_maintenance_or_route('/views/blog.php');
+            $page = ROOT_PATH . '/views/blog.php';
             break;
         case (!!preg_match('/black-magic-blues\/*/', $request)):
         case '/black-magic-blues':
@@ -117,7 +117,34 @@ function route_page($request){
             $page = ROOT_PATH . '/views/404.php';
             break;
     }
-    return $page;
+    return check_maintenance_or_route($page);
+}
+
+function count_posts()
+{
+    $totalposts = file_get_contents(BLOG_PATH . '/blogs.csv');
+    $totalposts = explode("\n", $totalposts);
+    $totalposts = count($totalposts) - 1;
+    return $totalposts;
+}
+
+function is_archive()
+{
+    if (isset($_GET['id'])) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function get_title()
+{
+    if (!is_archive()) {
+        $blogpost = new blogpost($_GET['id']);
+        return strtoupper($blogpost->title);
+    } else {
+        return 'BLOG';
+    }
 }
 
 ?>
