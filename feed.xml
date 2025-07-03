@@ -64,7 +64,7 @@
         <item>
             <title>IA IA IA Chapter 3</title>
             <link>https://ia-ia-ia.world/read/27</link>
-            <description>The second chapter of IA IA IA is out now.</description>
+            <description>The third chapter of IA IA IA is out now.</description>
             <category>Comic</category>
             <guid>https://ia-ia-ia.world/read/27</guid>
             <pubDate>Sun, 15 Dec 2024 16:00:00 EDT</pubDate>
@@ -76,6 +76,22 @@
             <category>Blog</category>
             <guid>https://ia-ia-ia.world/blog/?id=4</guid>
             <pubDate>Sun, 15 Dec 2024 16:00:00 EDT</pubDate>
+        </item>
+        <item>
+            <title>IA IA IA Chapter 4</title>
+            <link>https://ia-ia-ia.world/read/49</link>
+            <description>The fourth chapter of IA IA IA is out now.</description>
+            <category>Comic</category>
+            <guid>https://ia-ia-ia.world/read/49</guid>
+            <pubDate>Thu, 03 Jul 2025 16:00:00 EDT</pubDate>
+        </item>
+        <item>
+            <title>Chapter 4 Published</title>
+            <link>https://ia-ia-ia.world/blog/?id=5</link>
+            <description>Chapter 4 of IA IA IA is published.</description>
+            <category>Blog</category>
+            <guid>https://ia-ia-ia.world/blog/?id=5</guid>
+            <pubDate>Thu, 03 Jul 2025 16:00:00 EDT</pubDate>
         </item>
     </channel>
 </rss>
