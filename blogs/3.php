@@ -1,6 +1,17 @@
-<p>While drawing the first chapter of IA IA IA, I fell ill with bronchitis. During this time, I read comics and books like Alan Moore's <i>Watchmen</i> and Jack Kerouac's <i>The Dharma Bums.</i> I hope that I will be forgiven for stealing the techniques of these writers.</p>
-<p>I visited the doctor. They prescribed me some medicine, but after the bronchitis had faded, I still dealt with inflammation for the next few weeks. It wasn't until some pages into Chapter 2 that I was healthy again.</p>
-<p>Then, after that passed, I experienced a lot of panic attacks and anxiety flare-ups. I could barely eat. I'm only now starting to go back to work, but I'm taking medication and talking to a therapist. I'm doing much better.</p>
-<p>It's important to be yourself, no matter what. It should feel good to be that person. And you should never become someone out of fear.</p>
-<p>In this chapter, the duck and the rabbit have tea.</p>
-<p><a href="/read/14">Chapter 2 of IA IA IA is here.</a> Please enjoy it.</p>
+<p>In this chapter, the thieving magpie (no relation) is encountered.</p>
+<p>It's now been one full IA year. After finishing some other comics, I had intended to take some time for myself and not jump into a "next comic" right away. My first comic was 11 pages long, and I expected my next comic would be only a little longer.</p>
+<p>On December 19, I started drawing a duck. This duck was based on an older duck I had drawn the year before, but that duck was more anthropomorphic. I found I wanted to draw the duck more. When the title "IA IA IA" came to mind, I decided I had to write the rest of the comic implied by the name. At a time like this, it would make sense to say "I was possessed by the duck."</p>
+<p>I learned the comic would be longer than my first by a factor of 6 (maybe more). However, in the spirit of possession, I found in myself a limitless energy.</p>
+<p>I enjoy drawing IA IA IA. There will be three more chapters following this. Please look forward to them.</p>
+<p>In regards to the chapter 2 blog post, I found out in September that I have OCD and my symptoms have decreased dramatically with treatment. Sometimes, it's a mistake to seek certainty at the cost of everything else. I hope IA IA IA illustrates this in its own way.</p>
+<p>As an exercise, I have written a short list of comics, books, films, albums, and other items that may be of interest to <i>IA IA IA</i> readers. This is not a straightforward list of endorsements - please think of it as a list of IA parents. The below is about half of the full list, the rest of which I will divulge in the future.</p> 
+<ul>
+    <li>Owly: The Way Home and the Bittersweet Summer (Andy Runton, 2004)</li>
+    <li>Alice's Adventures in Wonderland (Lewis Carroll, 1865)</li>
+    <li>Speaking in Tongues (Talking Heads, 1983)</li>
+    <li>Spirited Away (Hayao Miyazaki, 2001)</li>
+    <li>Animal Man #1-26 (Grant Morrison, 1988-1990)</li>
+    <li>Bone (Jeff Smith, 1991-2004)</li>
+    <li>1Q84 (Haruki Murakami, 2009-2010)</li>
+</ul>
+<p><a href="/read/27">Chapter 3 of IA IA IA is here.</a> Please enjoy it.</p>

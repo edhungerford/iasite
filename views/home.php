@@ -15,5 +15,4 @@
     <p><i>IA IA IA</i> can be <a href="/read">read</a> for free on this very website. When finished, it will be available for purchase in
         print and digital formats.</p>
     <div class="heading"><h2>CREATOR</h2></div>
-    <p>My previous work, <i>Black Magic Blues</i>, can be read <a href="/black-magic-blues">here</a>. It can also be found on <a href="https://blackmagicblues.itch.io/black-magic-blues">Itch</a>.</p>
-    <p>To support my work while the comic is in progress, you may buy me a coffee (check the link in the footer).</p>
+    <p>To support my work, you may subscribe to my Patreon (check the link in the footer).</p>

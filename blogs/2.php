@@ -1,2 +1,6 @@
-<p>The Black Magic Blues one-shot, "A Reason to Come Back," has been published. This comic was previously included in the print release of Black Magic Blues. <a href="/black-magic-blues/12">It can be read here.</a></p>
-<p>This post also inaugurates the RSS feed, which can be found via the orange icon in the footer.</p>
+<p>While drawing the first chapter of IA IA IA, I fell ill with bronchitis. During this time, I read comics and books like Alan Moore's <i>Watchmen</i> and Jack Kerouac's <i>The Dharma Bums.</i> I hope that I will be forgiven for stealing the techniques of these writers.</p>
+<p>I visited the doctor. They prescribed me some medicine, but after the bronchitis had faded, I still dealt with inflammation for the next few weeks. It wasn't until some pages into Chapter 2 that I was healthy again.</p>
+<p>Then, after that passed, I experienced a lot of panic attacks and anxiety flare-ups. I could barely eat. I'm only now starting to go back to work, but I'm taking medication and talking to a therapist. I'm doing much better.</p>
+<p>It's important to be yourself, no matter what. It should feel good to be that person. And you should never become someone out of fear.</p>
+<p>In this chapter, the duck and the rabbit have tea.</p>
+<p><a href="/read/14">Chapter 2 of IA IA IA is here.</a> Please enjoy it.</p>
