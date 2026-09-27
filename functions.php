@@ -62,6 +62,9 @@ function route_title($request){
         case '/wizards':
             $title = "A Short Guide to Wizards";
             break;
+        case '/nib':
+            $title = "NIB";
+            break;
         default:
             $title = $title . " | 404";
             break;
@@ -107,6 +110,9 @@ function route_page($request){
             break;
         case '/wizards':
             $page = ROOT_PATH . '/views/wizards.php';
+            break;
+        case '/nib':
+            $page = ROOT_PATH . '/views/nib.php';
             break;
         default:
             http_response_code(404);
