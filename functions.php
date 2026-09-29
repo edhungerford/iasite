@@ -111,7 +111,7 @@ function route_page($request){
         case '/wizards':
             $page = ROOT_PATH . '/views/wizards.php';
             break;
-        case '/nib':
+        case (!!preg_match('/nib\/*/', $request)):
             $page = ROOT_PATH . '/views/nib.php';
             break;
         default:

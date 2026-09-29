@@ -31,10 +31,10 @@
         </item>
         <item>
             <title>Chapter 2 Published</title>
-            <link>https://ia-ia-ia.world/blog/?id=3</link>
+            <link>https://ia-ia-ia.world/blog/?id=2</link>
             <description>Chapter 2 of IA IA IA is published.</description>
             <category>Blog</category>
-            <guid>https://ia-ia-ia.world/blog/?id=3</guid>
+            <guid>https://ia-ia-ia.world/blog/?id=2</guid>
             <pubDate>Fri, 19 Jul 2024 16:00:00 EDT</pubDate>
         </item>
         <item>
@@ -47,10 +47,10 @@
         </item>
         <item>
             <title>Chapter 3 Published</title>
-            <link>https://ia-ia-ia.world/blog/?id=4</link>
+            <link>https://ia-ia-ia.world/blog/?id=3</link>
             <description>Chapter 3 of IA IA IA is published.</description>
             <category>Blog</category>
-            <guid>https://ia-ia-ia.world/blog/?id=4</guid>
+            <guid>https://ia-ia-ia.world/blog/?id=3</guid>
             <pubDate>Sun, 15 Dec 2024 16:00:00 EDT</pubDate>
         </item>
         <item>
@@ -63,27 +63,35 @@
         </item>
         <item>
             <title>Chapter 4 Published</title>
-            <link>https://ia-ia-ia.world/blog/?id=5</link>
+            <link>https://ia-ia-ia.world/blog/?id=4</link>
             <description>Chapter 4 of IA IA IA is published.</description>
             <category>Blog</category>
-            <guid>https://ia-ia-ia.world/blog/?id=5</guid>
+            <guid>https://ia-ia-ia.world/blog/?id=4</guid>
             <pubDate>Thu, 03 Jul 2025 16:00:00 EDT</pubDate>
         </item>
         <item>
             <title>Chapter 4 Correction</title>
-            <link>https://ia-ia-ia.world/blog/?id=6</link>
+            <link>https://ia-ia-ia.world/blog/?id=5</link>
             <description>A small correction to chapter 4.</description>
             <category>Blog</category>
-            <guid>https://ia-ia-ia.world/blog/?id=6</guid>
+            <guid>https://ia-ia-ia.world/blog/?id=5</guid>
             <pubDate>Mon, 28 Jul 2025 16:00:00 EDT</pubDate>
         </item>
         <item>
             <title>IA IA IA Release</title>
-            <link>https://ia-ia-ia.world/blog/?id=7</link>
+            <link>https://ia-ia-ia.world/blog/?id=6</link>
             <description>IA IA IA is finished. Please read it.</description>
             <category>Blog</category>
-            <guid>https://ia-ia-ia.world/blog/?id=7</guid>
+            <guid>https://ia-ia-ia.world/blog/?id=6</guid>
             <pubDate>Wed, 31 Dec 2025 16:00:00 EDT</pubDate>
+        </item>
+        <item>
+            <title>NIB</title>
+            <link>https://ia-ia-ia.world/blog/?id=7</link>
+            <description>Lamenting my current economic status, and announcing a new comic.</description>
+            <category>Blog</category>
+            <guid>https://ia-ia-ia.world/blog/?id=7</guid>
+            <pubDate>Mon, 28 Sep 2026 16:00:00 EDT</pubDate>
         </item>
     </channel>
 </rss>

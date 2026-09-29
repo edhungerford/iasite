@@ -287,4 +287,10 @@ footer {
  body.lightMode #menuIcon {
     filter: unset;
  }
- 
+ sub {
+	font-size: smaller;
+	font-style: italic;
+	text-decoration: none;
+	color: yellow;
+	padding: 2px;
+}

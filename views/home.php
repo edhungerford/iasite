@@ -12,7 +12,7 @@
     <p>"Undoubtedly, <i>IA IA IA</i> is...[a] comic...."</p>
     <p>"Characters talk to each other, and it is unclear what the purpose is."</p>
     <div class="heading"><h2>RELEASE</h2></div>
-    <p><i>IA IA IA</i> can be <a href="/read">read</a> for free on this very website. When finished, it will be available for purchase in
-        print and digital formats.</p>
+    <p><i>IA IA IA</i> can be <a href="/read">read</a> for free on this very website. Physical copies can be purchased <a href="/store">here</a>.</p>
     <div class="heading"><h2>CREATOR</h2></div>
+    <p>In addition to <i>IA IA IA</i>, I now also draw <i><a href="/nib">NIB</a></i>, a comic about a pig and his adventure.</p>
     <p>To support my work, you may subscribe to my Patreon (check the link in the footer).</p>

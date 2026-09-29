@@ -3,6 +3,7 @@
         <ul>
             <li><a href="/">Home</a></li>| 
             <li><a href="/read">Read</a></li>| 
+            <li><a href="/nib">NIB<sub>(NEW!)</sub></a></li>|
             <li><a href="/blog">Blog</a></li>|
             <li><a href="/store">Store</a></li>
             <!-- <li><a href="/wizards">Wizards</a></li> -->
