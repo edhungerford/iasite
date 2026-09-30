@@ -1,4 +1,5 @@
 <h1>NIB</h1>
+
 <?php 
             $pages= json_decode($db->getPageList(2));   
             $book = json_decode($db->getBook(2));

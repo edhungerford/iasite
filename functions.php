@@ -56,13 +56,10 @@ function route_title($request){
         case (!!preg_match('/blog\//', $request)):
             $title = $title . " | Blog";
             break;
-        case '/hunters':
-            $title = "Hunters of the Infamous Thing";
-            break;
         case '/wizards':
             $title = "A Short Guide to Wizards";
             break;
-        case '/nib':
+        case (!!preg_match('/nib\//', $request)):
             $title = "NIB";
             break;
         default:
@@ -74,9 +71,6 @@ function route_title($request){
 
 function route_stylesheet($request){
     switch ($request) {
-        case '/hunters':
-            $stylesheet = "/hunters.css";
-            break;
         case '/wizards':
             $stylesheet = "/wizards.css";
             break;
@@ -104,9 +98,6 @@ function route_page($request){
         case (!!preg_match('/black-magic-blues\/*/', $request)):
         case '/black-magic-blues':
             $page = ROOT_PATH . '/views/black-magic-blues.php';
-            break;
-        case '/hunters':
-            $page = ROOT_PATH . '/views/hunters.php';
             break;
         case '/wizards':
             $page = ROOT_PATH . '/views/wizards.php';
@@ -147,6 +138,17 @@ function get_title()
     } else {
         return 'BLOG';
     }
+}
+
+function special_index_decider($request, $realPageIndex){
+    if($request == "/nib" || !!preg_match('/nib\/*/', $request)){
+        $comicDate = date_create("2026-10-04");
+        $interval = DateInterval::createFromDateString($realPageIndex . ' days');
+        $adjustedComicDate = date_add($comicDate, $interval);
+
+        return date_format($adjustedComicDate, "l, F j, o");
+    }
+    return $realPageIndex + 1;
 }
 
 ?>

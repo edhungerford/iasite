@@ -3,10 +3,9 @@
         <ul>
             <li><a href="/">Home</a></li>| 
             <li><a href="/read">Read</a></li>| 
-            <li><a href="/nib">NIB<sub>(NEW!)</sub></a></li>|
+            <li><a href="/nib">NIB</a><sup>(NEW!)</sup></li>|
             <li><a href="/blog">Blog</a></li>|
             <li><a href="/store">Store</a></li>
-            <!-- <li><a href="/wizards">Wizards</a></li> -->
         </ul>
     </nav>
     
@@ -19,9 +18,9 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/read">Read</a></li>
+            <li><a href="/nib">NIB</a><sup>(NEW!)</sup></li>
             <li><a href="/blog">Blog</a></li>
             <li><a href="/store">Store</a></li>
-            <!-- <li><a href="/wizards">Wizards</a></li> -->
             <li><a id="close" href="#">Close</a>
         </ul>
     </nav>
