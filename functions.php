@@ -59,7 +59,7 @@ function route_title($request){
         case '/wizards':
             $title = "A Short Guide to Wizards";
             break;
-        case (!!preg_match('/nib\//', $request)):
+        case (!!preg_match('/nib\/*/', $request)):
             $title = "NIB";
             break;
         default:
